@@ -1,0 +1,9 @@
+{
+	"name": "Terraform GoogleCloud 開発環境",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "terraform_googlecloud",
+	"containerUser": "NaoyaOgura",
+	"workspaceFolder": "/home/NaoyaOgura"
+}
