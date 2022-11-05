@@ -9,6 +9,9 @@ RUN dnf update -y
 # Install sudo
 RUN dnf install sudo -y
 
+# Install git
+RUN dnf install git -y
+
 # Install dnf-plugins-core
 RUN dnf install dnf-plugins-core -y
 
