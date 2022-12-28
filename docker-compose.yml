@@ -1,6 +1,8 @@
 version: "3.8"
 services:
   terraform_googlecloud:
+    image: ${IMAGE_NAME}
+    container_name: ${CONTAINER_NAME}
     build:
       context: .
       dockerfile: ./Dockerfile
